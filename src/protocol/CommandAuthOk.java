@@ -16,8 +16,8 @@ public final class CommandAuthOk extends Command {
     super(NAME);
   }
 
-  public CommandAuthOk(@NotNull String name, int playerID) {
-    super(name);
+  public CommandAuthOk(int playerID) {
+    super(NAME);
     this.playerID = playerID;
   }
 }
